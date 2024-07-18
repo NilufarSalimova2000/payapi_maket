@@ -1,0 +1,152 @@
+.hero {
+    padding-top: 32px;
+    padding-bottom: 80px;
+}
+
+.hero__wrapper {
+    text-align: center;
+}
+
+.hero__img_block {
+    margin-bottom: 24px;
+}
+
+.hero__img {
+    width: 126px;
+    height: 239px;  
+}
+
+.hero__title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 112%;
+    letter-spacing: -0.01em;
+    color: #36536b;
+    margin-bottom: 24px;
+}
+
+.hero__input {
+    border-radius: 24px;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    background: #fbfcfe;
+    border: none;
+    width: 100%;
+    padding: 16px 27px;
+    outline-color: #36536b;
+    margin-bottom: 16px;
+}
+
+.hero__input::placeholder {
+    font-weight: 700;
+    font-size: 15px;
+    color: #99A7B4;
+}
+
+.hero__btn {
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #fbfcfe;
+    border-radius: 24px;
+    background-color: #ba4270;
+    border: none;
+    cursor: pointer;
+    padding: 16px 0;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.hero__text {
+    font-weight: 400;
+    font-size: 15px;
+    color: #6c8294;
+}
+
+.hero__link {
+    font-weight: 700;
+    color: #6C8294;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        padding-top: 48px;
+        padding-bottom: 100px;
+    }
+
+    .hero__img_block {
+        margin-bottom: 48px;
+    }
+
+    .hero__img {
+        width: 159px;
+        height: 300px; 
+    }
+
+    .hero__title {
+        font-size: 48px;
+        line-height: 117%;
+        margin-bottom: 22px;
+        width: 570px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .hero__input {
+        width: 445px;
+        padding: 16px 200px 14px 27px;
+        outline-color: #36536b;
+    }
+
+    .hero__btn {
+        padding: 15px 0;
+        width: 173px;
+        margin-bottom: 0;
+        position: absolute;
+        transform: translateX(-100%);
+    }
+
+    .hero__form {
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 1067px){
+    .hero {
+        padding-top: 74px;
+        padding-bottom: 75px;
+    }
+
+    .hero__img_block {
+        margin-bottom: 0;
+    }
+
+    .hero__img {
+        width: 263px;
+        height: 500px;
+    }
+
+    .hero__wrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: start;
+        gap: 206px;
+    }
+
+    .hero__info_block {
+       text-align: start;
+    }
+
+    .hero__title {
+        font-size: 72px;
+        line-height: 100%;
+        margin-bottom: 31px;
+        width: 546px;
+    }
+
+    .hero__text {
+        margin-left: 27px;
+    }
+
+}

@@ -1,0 +1,122 @@
+.work {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url('../img/work_bg_imag.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.work__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+    row-gap: 39px;
+    margin-bottom: 56px;
+}
+
+.work__item {
+    text-align: center;
+}
+
+.work__info_block {
+    text-align: center;
+}
+
+.work__title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 112%;
+    letter-spacing: -0.01em;
+    color: #fbfcfe;
+    margin-bottom: 16px;
+}
+
+.work__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187%;
+    color: #fbfcfe;
+    opacity: 0.7;
+    margin-bottom: 60px;
+}
+
+.work__btn {
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: -0.01em;
+    color: #fbfcfe;
+    border: 1px solid #fbfcfe;
+    border-radius: 24px;
+    padding: 15px 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .work {
+        padding-top: 88px;
+        padding-bottom: 88px;
+    }
+
+    .work__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 62px;
+        row-gap: 46px;
+        margin-bottom: 64px;
+    }
+
+    .work__wrapper {
+        padding-right: 116px;
+        padding-left: 116px;
+    }
+
+    .work__title {
+        font-size: 48px;
+        line-height: 117%;
+        margin-bottom: 32px;
+    }
+
+    .work__text {
+        font-size: 15px;
+        margin-bottom: 60px;
+    }
+
+    .work__info_block {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .work {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .work__wrapper {
+        padding-right: 0;
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .work__info_block {
+        padding-right: 0;
+        padding-left: 0;
+        text-align: start;
+        width: 445px;
+    }
+
+    .work__list {
+        margin-bottom: 0;
+    }
+
+    .work__title {
+        margin-bottom: 24px;
+    }
+
+    .work__text {
+        margin-bottom: 32px;
+    }
+}
